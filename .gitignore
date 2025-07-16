@@ -777,3 +777,6 @@ FodyWeavers.xsd
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,python,visualstudiocode,visualstudio,pycharm,cuda
 
 /corridor_floor_data
+
+*.keras
+*.tflite
