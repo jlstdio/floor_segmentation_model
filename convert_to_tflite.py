@@ -1,7 +1,7 @@
 import tensorflow as tf
 
 # 최상의 Keras 모델 로드
-model = tf.keras.models.load_model('best_floor_segmentation_model.keras')
+model = tf.keras.models.load_model('best_floor_segmentation_model_mobilenet.keras')
 converter = tf.lite.TFLiteConverter.from_keras_model(model)
 
 #############################
